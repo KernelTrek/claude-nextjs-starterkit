@@ -1,0 +1,26 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm view *)",
+      "Bash(npm pack *)",
+      "Bash(npx shadcn@latest init --help)",
+      "WebFetch(domain:ui.shadcn.com)",
+      "WebFetch(domain:github.com)",
+      "WebSearch",
+      "WebFetch(domain:www.shadcnblocks.com)",
+      "WebFetch(domain:supabase.com)",
+      "WebFetch(domain:raw.githubusercontent.com)",
+      "Bash(gh api *)",
+      "Bash(npm install *)",
+      "Bash(npm run *)",
+      "Read(//private/tmp/**)",
+      "Bash(npx playwright *)",
+      "Bash(curl -s http://localhost:3000/)",
+      "Bash(git init *)",
+      "Bash(git config *)",
+      "Bash(git add *)",
+      "Bash(git rm *)",
+      "Bash(git commit -m ' *)"
+    ]
+  }
+}
